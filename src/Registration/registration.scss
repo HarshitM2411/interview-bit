@@ -1,0 +1,57 @@
+.registration {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 400px;
+    background-image: linear-gradient(45deg,
+            hsl(240deg 100% 20%) 0%,
+            hsl(289deg 100% 21%) 11%,
+            hsl(315deg 100% 27%) 22%,
+            hsl(329deg 100% 36%) 33%,
+            hsl(337deg 100% 43%) 44%,
+            hsl(357deg 91% 59%) 56%,
+            hsl(17deg 100% 59%) 67%,
+            hsl(34deg 100% 53%) 78%,
+            hsl(45deg 100% 50%) 89%,
+            hsl(55deg 100% 50%) 100%);
+    border-radius: 5%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+    .registration {
+        width: 250px;
+        height: 150px;
+    }
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FFF;
+}
+
+.cta-container {
+    position: absolute;
+    top: 14%;
+    left: 31.5%;
+    font-weight: 600;
+}
+
+.cta-container a:last-child:hover {
+    color: blue;
+    cursor: pointer;
+    text-decoration-line: underline;
+}
+
+.cta-container a:first-child:hover {
+    color: blue;
+    cursor: pointer;
+    text-decoration-line: underline;
+}

@@ -4,8 +4,6 @@ import Banner from "../Banner";
 
 export default function Home() {
     return (<>
-        <Header />
         <Banner />
-        <Footer />
     </>)
 }
